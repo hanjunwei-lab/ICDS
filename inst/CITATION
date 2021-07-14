@@ -1,0 +1,37 @@
+citHeader("To cite the R package 'ICDS' in publications use:")
+
+
+citEntry(entry  ="ARTICLE",
+         title  = "Identification of Cancer Dysfunctional Subpathways by Integrating DNA Methylation, Copy Number Variation, and Gene-Expression Data",
+         author = personList(
+             as.person("Siyao Liu"),
+             as.person("Baotong Zheng"),
+             as.person("Yuqi Sheng"),
+             as.person("Qingfei Kong"),
+             as.person("Ying Jiang"),
+             as.person("Yang Yang"),
+             as.person("Xudong Han"),
+             as.person("Liang Cheng"),
+             as.person("Yunpeng Zhang"),
+             as.person("Junwei Han")
+             ),
+         journal = "Frontiers in Genetics",
+         year    = "2019",
+         volume  = "10",
+         pages   = "441",
+         PMID    = "31156704",
+         doi     = "10.3389/fgene.2019.00441",
+         textVersion = paste("Liu S, Zheng B, Sheng Y, Kong Q, Jiang Y, Yang Y, Han X, Cheng L, Zhang Y, Han J.",
+             "Identification of Cancer Dysfunctional Subpathways by Integrating DNA Methylation, Copy Number Variation, and Gene-Expression Data.",
+             "Front Genet. 2019 May 15;10:441. doi: 10.3389/fgene.2019.00441")
+         )
+         
+         
+
+
+
+
+
+
+
+
