@@ -22,7 +22,7 @@
 #' subpID<-unlist(strsplit("ACSS1/ALDH3B2/ADH1B/ADH1A/ALDH2/DLAT/ACSS2","/"))
 #' pathway.name="Glycolysis / Gluconeogenesis"
 #' zzz<- GetExampleData("zzz")
-#' \dontrun{PlotSubpathway(subpID=subpID,pathway.name=pathway.name,zz=zzz)}
+#' \donttest{PlotSubpathway(subpID=subpID,pathway.name=pathway.name,zz=zzz)}
 PlotSubpathway<-function(subpID,pathway.name,zz,Pathway="kegg",layout=layout.fruchterman.reingold){
   dbpkg <- "org.Hs.eg.db"
   pkgs <- installed.packages()[,1]

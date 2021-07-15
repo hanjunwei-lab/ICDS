@@ -108,7 +108,7 @@ CombineSubPath<- function(subpath,zdata,new) {
 #' @examples
 #' zz<-GetExampleData("zzz")
 #' subpathdata<-GetExampleData("subpathdata")
-#' \dontrun{optsubpath<-opt_subpath(subpathdata,zz,overlap=0.6)}
+#' optsubpath<-opt_subpath(subpathdata,zz,overlap=0.6)
 opt_subpath <- function(subpathdata,zz,overlap=0.6) {
   subpathsplited<-SplitPath(subpathdata)
   res_data<-list()

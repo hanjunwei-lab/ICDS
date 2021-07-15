@@ -20,5 +20,5 @@ A numeric vector of z_scores
 \examples{
 exp.p<-GetExampleData("exp.p")
 meth.p<-GetExampleData("meth.p")
-\dontrun{combinep_two(exp.p,meth.p)}
+combinep_two(exp.p,meth.p)
 }

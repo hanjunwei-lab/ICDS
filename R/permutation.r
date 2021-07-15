@@ -17,7 +17,7 @@
 #' require(graphite)
 #' keysubpathways<-GetExampleData("keysubpathways")
 #' zzz<-GetExampleData("zzz")
-#' \dontrun{Permutation(keysubpathways,zzz,nperm1=10,method1=TRUE,nperm2=10,method2=FALSE)}
+#' \donttest{Permutation(keysubpathways,zzz,nperm1=10,method1=TRUE,nperm2=10,method2=FALSE)}
 Permutation<-function(subpathwayz,zz,nperm1=1000,method1=TRUE,nperm2=1000,method2=FALSE){
   xx <-apply(subpathwayz[,c(2,5)],1,function(x) paste(x,collapse=";"));
   B <-which(duplicated(xx)==TRUE);

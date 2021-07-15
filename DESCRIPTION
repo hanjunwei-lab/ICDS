@@ -1,8 +1,6 @@
 Package: ICDS
 Type: Package
-Title: Identification of Cancer Dysfunctional Subpathway by Integrating
-        DNA Methylation, Copy Number Variation, and Gene Expression
-        Data
+Title: Identification of Cancer Dysfunctional Subpathway with Omics Data
 Version: 0.1.2
 Authors@R: c(
     person("Junwei", "Han", email = "hanjunwei1981@163.com", role = "cre"),

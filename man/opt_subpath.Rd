@@ -22,5 +22,5 @@ Optimized subpathway:the number of genes shared by any two pathways accounted fo
 \examples{
 zz<-GetExampleData("zzz")
 subpathdata<-GetExampleData("subpathdata")
-\dontrun{optsubpath<-opt_subpath(subpathdata,zz,overlap=0.6)}
+optsubpath<-opt_subpath(subpathdata,zz,overlap=0.6)
 }

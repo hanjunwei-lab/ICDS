@@ -27,5 +27,5 @@ For a given expression profile of two conditions, ICDS package provide t-test me
 \examples{
 profile<-GetExampleData("exp_data")
 label<-GetExampleData("label1")
-\dontrun{getExpp(profile,label,p.adjust=FALSE)}
+getExpp(profile,label,p.adjust=FALSE)
 }

@@ -35,7 +35,7 @@ rmnan<-function(x){
 #' @examples
 #' profile<-GetExampleData("exp_data")
 #' label<-GetExampleData("label1")
-#' \dontrun{getExpp(profile,label,p.adjust=FALSE)}
+#' getExpp(profile,label,p.adjust=FALSE)
 getExpp <- function(exp_data,label,p.adjust=TRUE,method="fdr") {
   t<-calT(exp_data,label)
   p.t<-pt(abs(t$T),df = t$df,lower.tail = FALSE)
@@ -71,7 +71,7 @@ getExpp <- function(exp_data,label,p.adjust=TRUE,method="fdr") {
 #' @examples
 #' profile<-GetExampleData("meth_data")
 #' label<-GetExampleData("label2")
-#' \dontrun{getMethp(profile,label,p.adjust=FALSE)}
+#' getMethp(profile,label,p.adjust=FALSE)
 getMethp <- function(meth_data,label,p.adjust=TRUE,method="fdr") {
   t<-calT(meth_data,label)
   p.t<-pt(abs(t$T),df = t$df,lower.tail = FALSE)
@@ -111,7 +111,7 @@ getMethp <- function(meth_data,label,p.adjust=TRUE,method="fdr") {
 #' cnv_data<-GetExampleData("cnv_data")
 #' amp_gene<-GetExampleData("amp_gene")
 #' del_gene<-GetExampleData(("del_gene"))
-#' \dontrun{getCnvp(exp_data,cnv_data,amp_gene,del_gene,p.adjust=FALSE,method="fdr")}
+#' getCnvp(exp_data,cnv_data,amp_gene,del_gene,p.adjust=FALSE,method="fdr")
 getCnvp <- function(exp_data,cnv_data,amp_gene,del_gene,p.adjust=TRUE,method="fdr") {
   exp_sample<-colnames(exp_data)
   cnv_sample<-colnames(cnv_data)

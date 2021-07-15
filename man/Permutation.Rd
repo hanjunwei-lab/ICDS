@@ -36,5 +36,5 @@ the permutation test method 1 and method 2 were used to calculate the statistica
 require(graphite)
 keysubpathways<-GetExampleData("keysubpathways")
 zzz<-GetExampleData("zzz")
-\dontrun{Permutation(keysubpathways,zzz,nperm1=10,method1=TRUE,nperm2=10,method2=FALSE)}
+\donttest{Permutation(keysubpathways,zzz,nperm1=10,method1=TRUE,nperm2=10,method2=FALSE)}
 }

@@ -41,5 +41,5 @@ meth_data<-GetExampleData("meth_data")
 cnv_data<-GetExampleData("cnv_data")
 amp_gene<-GetExampleData("amp_gene")
 del_gene<-GetExampleData(("del_gene"))
-\dontrun{getCnvp(exp_data,cnv_data,amp_gene,del_gene,p.adjust=FALSE,method="fdr")}
+getCnvp(exp_data,cnv_data,amp_gene,del_gene,p.adjust=FALSE,method="fdr")
 }

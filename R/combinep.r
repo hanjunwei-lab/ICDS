@@ -7,9 +7,9 @@
 #' exp.p<-GetExampleData("exp.p")
 #' meth.p<-GetExampleData("meth.p")
 #' cnv.p<-GetExampleData("cnv.p")
-#' \dontrun{coverp2zscore(exp.p)}
-#' \dontrun{coverp2zscore(meth.p)}
-#' \dontrun{coverp2zscore(cnv.p)}
+#' coverp2zscore(exp.p)
+#' coverp2zscore(meth.p)
+#' coverp2zscore(cnv.p)
 coverp2zscore<-function(pdata){
   gene<-pdata[,1]
   pdata<-pdata[,-1]
@@ -46,7 +46,7 @@ coverp2zscore<-function(pdata){
 #' @examples
 #' exp.p<-GetExampleData("exp.p")
 #' meth.p<-GetExampleData("meth.p")
-#' \dontrun{combinep_two(exp.p,meth.p)}
+#' combinep_two(exp.p,meth.p)
 
 combinep_two<-function(p1,p2){
 
@@ -96,7 +96,7 @@ return(fdrzscore)
 #' exp.p<-GetExampleData("exp.p")
 #' meth.p<-GetExampleData("meth.p")
 #' cnv.p<-GetExampleData("cnv.p")
-#' \dontrun{combinep_three(exp.p,meth.p,cnv.p)}
+#' \donttest{combinep_three(exp.p,meth.p,cnv.p)}
 combinep_three <- function(p1,p2,p3) {
   u_gene<-union(p1[,1],p2[,1])
   u_gene<-union(u_gene,p3[,1])

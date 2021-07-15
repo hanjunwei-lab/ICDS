@@ -38,7 +38,7 @@ GetNextGene_Z<-function(Sub_geneID,pathway,zz,Or_z){
 #' @examples
 #' require(graphite)
 #' zz<-GetExampleData("zzz")
-#' \dontrun{k<-FindSubPath(zz)}
+#' \donttest{k<-FindSubPath(zz)}
 FindSubPath<-function(zz,Pathway="kegg",delta=0.05,seed_p=0.05,min.size=5,out.F=FALSE,out.file="Subpath.txt"){
 seed_z<-zz[,"z_score"]
 seedgene<-rownames(zz)[which(as.numeric(zz[,"padjust"])<seed_p)]

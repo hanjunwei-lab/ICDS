@@ -27,5 +27,5 @@ For a given Methylation profile of two conditions, ICDS package provide t-test m
 \examples{
 profile<-GetExampleData("meth_data")
 label<-GetExampleData("label2")
-\dontrun{getMethp(profile,label,p.adjust=FALSE)}
+getMethp(profile,label,p.adjust=FALSE)
 }

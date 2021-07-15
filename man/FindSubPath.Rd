@@ -38,5 +38,5 @@ Key dysfunctional subpathways in each pathway, in which the risk score of the ge
 \examples{
 require(graphite)
 zz<-GetExampleData("zzz")
-\dontrun{k<-FindSubPath(zz)}
+\donttest{k<-FindSubPath(zz)}
 }

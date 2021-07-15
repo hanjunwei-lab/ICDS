@@ -23,5 +23,5 @@ A numeric vector of z_scores
 exp.p<-GetExampleData("exp.p")
 meth.p<-GetExampleData("meth.p")
 cnv.p<-GetExampleData("cnv.p")
-\dontrun{combinep_three(exp.p,meth.p,cnv.p)}
+\donttest{combinep_three(exp.p,meth.p,cnv.p)}
 }
