@@ -83,4 +83,10 @@ GetExampleData<-function(exampleData){
     dataset<- get("opt_subpathways",envir=envData)
     return(dataset)
   }
+  
+  if (exampleData=="keysubpathways")
+  {
+    dataset<- get("keysubpathways",envir=envData)
+    return(dataset)
+  }
 }

@@ -1,19 +1,9 @@
 ---
 title: "ICDS User Guide"
 author: "Junwei Han"
-date: "`r Sys.Date()`"
-output:
-  html_document:
-    df_print: paged
-    toc: yes
-  pdf_document:
-    toc: yes
-  prettydoc::html_pretty:
-    highlight: github
-    theme: cayman
-vignette: |
+output: rmarkdown::html_vignette
+vignette: >
   %\VignetteIndexEntry{ICDS User Guide} 
-  %\usepackage[utf8]{inputenc} 
   %\VignetteEncoding{UTF-8} 
   %\VignetteEngine{knitr::rmarkdown}
 ---

@@ -3,4 +3,4 @@
 #' @name ICDS-package
 #' @aliases ICDS-package ICDS
 #' @docType package
-NULL
+"_PACKAGE"
